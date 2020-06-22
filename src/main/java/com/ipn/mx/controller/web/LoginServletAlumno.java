@@ -176,11 +176,11 @@ public class LoginServletAlumno extends HttpServlet {
     }
 
     public Connection obtenerConexion() {
-        String user = "root";
+      String user = "root";
         String pwd = "AXHcqa11092";
         String url = "jdbc:mysql://node54915-env-3995618.jl.serv.net.mx:3306/ProyectoWeb?serverTimezone=America/Mexico_City&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false";
         String mySqlDriver = "com.mysql.cj.jdbc.Driver";
-        /*String user = "root";
+       /*String user = "root";
         String pwd = "password";
         String url = "jdbc:mysql://localhost:3306/ProyectoWeb?serverTimezone=America/Mexico_City&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false";
         String mySqlDriver = "com.mysql.cj.jdbc.Driver";*/

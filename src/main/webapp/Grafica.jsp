@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Grafica Alumnos</title>
+        <title>Grafica</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -13,14 +13,13 @@
     <body>
      <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Gesti&oacute;n de Carrera</a>
+                <a class="navbar-brand" href="#">Grafica</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="principal.jsp">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="CarreraServlet?accion=listaDeCarreras">Lista de Carreras</a>
+                       
                     </div>
                     <div class="alert alert-success text-white bg-dark" role="alert">
                         <strong>
@@ -32,7 +31,7 @@
             </nav>
         <div class="card border-dark mb-3" >
                 <div class="card-header">
-                    <h2>Grafica Alumnos por Carrera </h2>
+                    <h2>Grafica de Idiomas</h2>
                 </div>
                 
             <div class="card text-white bg-dark mb-3"> 
